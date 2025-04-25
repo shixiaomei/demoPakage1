@@ -4,12 +4,7 @@ namespace wojianduanfa\DemoPakage1;
 
 class DemoPakage1
 {
-
-
-    public function __construct()
-    {
-
-    }
+    public function __construct() {}
 
     public function say()
     {
