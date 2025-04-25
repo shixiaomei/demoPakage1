@@ -17,7 +17,7 @@ class DemoPakage1ServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('demopakage1')
-            ->hasConfigFile()
+            ->hasConfigFile('demopakage1')
             ->hasViews()
             ->hasMigration('create_demopakage1_table')
             ->hasCommand(DemoPakage1Command::class);
